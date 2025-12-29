@@ -4,7 +4,7 @@ import 'dart:io';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 
-import '../../audio_waveforms.dart';
+import '../../custom_audio_waveforms.dart';
 import '../base/constants.dart';
 import '../base/platform_streams.dart';
 import '../base/player_identifier.dart';

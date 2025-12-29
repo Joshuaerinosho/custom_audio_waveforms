@@ -1,4 +1,4 @@
-import '../../audio_waveforms.dart';
+import '../../custom_audio_waveforms.dart';
 
 /// Class to specify encoder and output format settings for Android.
 class AndroidEncoderSettings {
