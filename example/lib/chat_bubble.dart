@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:audio_waveforms/custom_audio_waveforms.dart';
+import 'package:audio_waveforms/audio_waveforms.dart';
 import 'package:flutter/material.dart';
 
 class ChatBubble extends StatelessWidget {
@@ -143,7 +143,7 @@ class _WaveBubbleState extends State<WaveBubble> {
                 highlightColor: Colors.transparent,
               ),
             AudioFileWaveforms(
-              size: Size(MediaQuery.of(context).size.width / 2, 70),
+              size: Size(MediaQuery.of(context).size.width - 100, 70),
               playerController: controller,
               waveformType:
                   widget.isSender ? WaveformType.long : WaveformType.fitWidth,
